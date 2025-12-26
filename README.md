@@ -1,2 +1,2 @@
 # myenglishlab
-solver
+Gemini AI powered Pearson Solver
