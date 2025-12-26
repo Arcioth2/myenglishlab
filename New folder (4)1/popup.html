@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pearson Çözücü</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Pearson Çözücü v2.5</h2>
+    
+    <div class="input-group">
+      <label for="apiKey">Gemini API Anahtarı</label>
+      <input type="password" id="apiKey" placeholder="Gemini API Anahtarınızı girin">
+    </div>
+
+    <div class="input-group">
+      <label for="modelName">Model Adı</label>
+      <input type="text" id="modelName" placeholder="gemini-2.5-flash-preview-09-2025" value="gemini-2.5-flash-preview-09-2025">
+      <small style="color:#666; font-size:10px;">Otomatik: gemini-2.5-flash-preview-09-2025</small>
+    </div>
+
+    <div class="button-group">
+      <button id="saveKey" class="secondary">Ayarları Kaydet</button>
+      <button id="solveBtn" class="primary">Sayfayı Çöz</button>
+    </div>
+
+    <div id="status" class="status"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
